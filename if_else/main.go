@@ -37,6 +37,10 @@ func main() {
 	if !isChildren(age) {
 		fmt.Println("Old daun")
 	}
+
+	if age == 99 {
+		fmt.Println("huita")
+	}
 }
 
 func isChildren(age int) bool {
